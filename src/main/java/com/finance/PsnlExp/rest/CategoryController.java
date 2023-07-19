@@ -16,6 +16,9 @@ public class CategoryController {
 
 	@Autowired
 	CategoryRepo categoryRepo;
+	
+	//
+	
 
 	@GetMapping("list/categories")
 	@Operation(summary = "List all the available Categories")
