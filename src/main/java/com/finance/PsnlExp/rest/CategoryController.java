@@ -18,7 +18,7 @@ public class CategoryController {
 	CategoryRepo categoryRepo;
 	
 	//
-	
+	// //
 
 	@GetMapping("list/categories")
 	@Operation(summary = "List all the available Categories")
